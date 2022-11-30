@@ -8,8 +8,10 @@ function App () {
   return (
      <div>
       <NavBar />
-      <CartWidget />
-      <ItemListCointainer />
+      <ItemListCointainer
+        nombre="Christian"
+        apellido="Leites"
+       />
      </div>
       
   )

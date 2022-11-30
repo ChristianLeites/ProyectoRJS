@@ -1,6 +1,6 @@
-const ItemListCointainer = () => {
+const ItemListCointainer = ({nombre, apellido}) => {
     return (
-        <h2>Hola, bienvenido a mi pagina.</h2>
+        <h2>Hola! Soy {nombre} {apellido}, bienvenido a mi pagina.</h2>
     )
 }
 export default ItemListCointainer;
